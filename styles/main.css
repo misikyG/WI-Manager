@@ -1,0 +1,53 @@
+/* WorldBook Tag Manager - Main Styles */
+
+/* 標籤篩選按鈕容器 */
+#wbtm-filter-container {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 8px;
+    background-color: var(--SmartThemeBodyColor);
+}
+
+#wbtm-filter-container .inline-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#wbtm-filter-container label {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+#wbtm-tag-filter {
+    width: 100%;
+}
+
+/* 每個世界書條目的標籤輸入區 */
+.wbtm-tag-input-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 0;
+}
+
+.wbtm-tag-input-container i {
+    color: var(--SmartThemeSubtleColor);
+}
+
+.wbtm-tag-input {
+    flex-grow: 1;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid var(--SmartThemeBorderColor) !important;
+    border-radius: 0 !important;
+    padding: 2px 5px !important;
+    height: auto !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.wbtm-tag-input:focus {
+    border-bottom: 1px solid var(--SmartThemeAccentColor) !important;
+}
