@@ -1,0 +1,43 @@
+/* WorldBook Manager 擴充專用樣式 */
+
+/* 標籤篩選按鈕 (藍色框) */
+#wbtm-tag-filter-button {
+    font-size: 1.1em;
+    margin: 0 2px 0 5px; /* 與旁邊的元素保持一點距離 */
+    padding: 5px;
+    height: fit-content;
+    aspect-ratio: 1 / 1;
+}
+
+/* 標籤輸入區域容器 (紅色框) */
+.wbtm-tag-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* 圖標和輸入框之間的間距 */
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: var(--black30a);
+    border: 1px solid var(--SmartThemeBorderColor);
+}
+
+/* 標籤圖標 */
+.wbtm-tag-icon {
+    opacity: 0.7;
+    margin-left: 5px;
+}
+
+/* 標籤輸入框 */
+#wbtm-tag-input {
+    flex-grow: 1; /* 佔滿剩餘空間 */
+    margin: 0;
+    border: none;
+    background: transparent;
+    padding: 3px 5px;
+}
+
+/* 讓輸入框在 focus 時沒有額外邊框，因為我們已經有容器邊框了 */
+#wbtm-tag-input:focus {
+    outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "WorldBook Manager",
+  "version": "0.1.0",
+  "author": "YourName",
+  "description": "Enhances World Info management with tags, filtering, and more.",
+  "id": "sillytavern-worldbook-manager",
+  "entry": "index.js",
+  "tags": [
+    "utility",
+    "ui",
+    "lorebook"
+  ],
+  "api_version": "1.0.0"
+}
