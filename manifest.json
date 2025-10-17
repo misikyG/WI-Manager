@@ -1,0 +1,13 @@
+{
+  "name": "WorldBook Tag Manager",
+  "display_name": "WorldBook Tag Manager",
+  "author": "misiky",
+  "description": "Enhances World Info/Lorebook with a tagging and filtering system.",
+  "version": "0.1.0",
+  "tags": ["world", "ux"],
+  "loading_order": 100,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "styles/main.css"
+}
