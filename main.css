@@ -1,0 +1,75 @@
+/* WorldBook Tag Manager - Main Styles */
+
+/* 標籤輸入框的容器 */
+#wbtm-tag-input-container {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid var(--SmartThemeBorderColor);
+    background-color: var(--SmartThemeBodyColor);
+    border-radius: 8px;
+}
+
+/* "標籤 (Tags):" 的文字樣式 */
+.wbtm-label {
+    margin-right: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* 標籤輸入框 */
+#wbtm-tag-input {
+    flex-grow: 1; /* 讓輸入框填滿剩餘空間 */
+    background-color: var(--SmartThemeMenuColor) !important;
+}
+
+/* 篩選圖標按鈕 */
+#wbtm-filter-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid var(--SmartThemeBorderColor);
+    background-color: var(--SmartThemeBodyColor);
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+#wbtm-filter-button:hover {
+    background-color: var(--SmartThemeHoverColor);
+}
+
+/* 當篩選器啟用時，按鈕高亮 */
+#wbtm-filter-button.active {
+    color: var(--SillyTavernLogoColor);
+    border-color: var(--SillyTavernLogoColor);
+}
+
+/* 彈出視窗內的樣式 */
+#wbtm-filter-popup {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.wbtm-filter-tag-label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.wbtm-filter-tag-label:hover {
+    background-color: var(--SmartThemeHoverColor);
+}
+
+.wbtm-filter-tag-checkbox {
+    margin-right: 8px;
+}
