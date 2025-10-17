@@ -1,0 +1,41 @@
+/* 確保所有樣式都以 wbtm- 開頭，避免衝突 */
+
+/* 標籤輸入區塊的容器 */
+.wbtm-tag-section {
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid var(--SmartThemeBorderColor);
+    background: var(--SmartThemeChatTintColor);
+    border-radius: 5px;
+}
+
+/* 顯示已存在標籤的區域 */
+.wbtm-tags-display {
+    margin-bottom: 5px;
+    min-height: 24px; /* 避免沒有標籤時UI跳動 */
+}
+
+/* 單個標籤的樣式 */
+.wbtm-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 2px;
+  border-radius: 12px;
+  font-size: 12px;
+  background: var(--SmartThemeBodyColor);
+  border: 1px solid var(--SmartThemeBorderColor);
+  color: var(--SmartThemeEmColor); /* 讓文字顏色和主題一致 */
+}
+
+/* 標籤輸入框的樣式微調 */
+#wbtm-tag-input {
+    width: 100%;
+    box-sizing: border-box; /* 確保 padding 不會讓它超出容器 */
+}
+
+/* 標籤篩選按鈕的樣式 */
+.wbtm-filter-button {
+    font-size: 1.2em; /* 讓圖標和旁邊的按鈕差不多大 */
+    margin-right: 10px; /* 和其他按鈕保持一點距離 */
+    cursor: pointer;
+}
